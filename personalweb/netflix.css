@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+.logo {
+    color: red;
+    font-size: 2rem;
+}
+
+.sign-in {
+    background: red;
+    color: white;
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* HERO CONTENT */
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* EMAIL BOX */
+.email-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.email-box input {
+    padding: 15px;
+    width: 300px;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.email-box button {
+    background: red;
+    color: white;
+
+    border: none;
+    padding: 15px 25px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+    padding: 50px 20px;
+
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background: #222;
+
+    width: 300px;
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+/* FAQ */
+.faq {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+
+    background: #333;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+
+    text-align: left;
+    font-size: 18px;
+}
+
+.faq-answer {
+    display: none;
+
+    background: #444;
+    padding: 20px;
+
+    text-align: left;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+/* HIDDEN CLASS */
+.hidden {
+    display: none;
+}
+
+/* PAGE 2 */
+.page2 {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    background: red;
+
+    margin: 50px auto;
+}
+
+.logout {
+    display: block;
+    margin: 20px auto;
+
+    padding: 12px 25px;
+
+    background: red;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+}

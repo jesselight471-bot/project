@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Landing Page</title>
+    <link rel="stylesheet" href="netflix.css" />
+</head>
+
+<body>
+
+    <!-- PAGE 1 -->
+    <div id="page1" class="container">
+
+        <!-- HERO SECTION -->
+        <header class="hero">
+            <nav>
+                <h1 class="logo">NETFLIX</h1>
+                <button onclick="location.href='pe.html'" class="sign-in">
+                    Sign In
+                </button>
+            </nav>
+
+            <div class="hero-content">
+                <h2>
+                    Unlimited movies, TV shows, and more
+                </h2>
+
+                <p>
+                    Watch anywhere. Cancel anytime.
+                </p>
+
+                <div class="email-box">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                    />
+
+                    <button onclick="showpage2()">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- FEATURES -->
+        <section class="features">
+
+            <div class="feature-box">
+                <h2>Enjoy on your TV</h2>
+
+                <p>
+                    Watch on Smart TVs,
+                    Playstation, Xbox,
+                    Chromecast and more.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h2>Download your shows</h2>
+
+                <p>
+                    Save your favourites
+                    and watch offline.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h2>Watch Everywhere</h2>
+
+                <p>
+                    Stream unlimited
+                    movies and TV shows.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is Netflix?
+                </button>
+
+                <div class="faq-answer">
+                    Netflix is a streaming
+                    service for movies
+                    and TV shows.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How much does Netflix cost?
+                </button>
+
+                <div class="faq-answer">
+                    Netflix plans vary
+                    depending on your location.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Where can I watch?
+                </button>
+
+                <div class="faq-answer">
+                    You can watch on phones,
+                    tablets, TVs and laptops.
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>
+                Netflix Landing Page © 2026
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- PAGE 2 -->
+    <div id="page2" class="page2 hidden">
+
+        <div class="box"></div>
+
+        <h1 style="text-align:center;">
+            Welcome To Page 2 🎉
+        </h1>
+
+        <button
+            onclick="showpage1()"
+            class="logout"
+        >
+            Go Back
+        </button>
+
+    </div>
+
+    <script src="netflix.js">
+
+
+
+</script>
+
+</body>
+</html>
